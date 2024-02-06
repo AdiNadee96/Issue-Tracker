@@ -17,7 +17,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <script src="https://cdn.tailwindcss.com"></script>
       <body className={inter.className}>
         <NavBar/>
         <main>{children}</main>
